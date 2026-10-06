@@ -10,7 +10,7 @@ import userRoutes from './routes/user.js'
 dotenv.config()
 
 const app = express()
-const port = process.env.PORT
+const port = process.env.PORT || 8000
 
 // app.get('/', (req, res) => {
 //   res.send('Hello World')
